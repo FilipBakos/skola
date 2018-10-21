@@ -1,0 +1,20 @@
+|-> Array.every(callback : Function, [thisArg : Object]) : Booleancallback(item : Object, index : Number, array : Array) : Boolean
+|-> Array.filter(callback : Function, [thisArg : Object]) : Arraycallback(item : Object, index : Number, array : Array) : Boolean
+|-> Array.find(callback : Function, [thisArg : Object]) : Objectcallback(item : Object, index : Number, array : Array) : Boolean
+|-> Array.findIndex(callback : Function, [thisArg : Object]) : Objectcallback(item : Object, index : Number, array : Array) : Boolean
+|-> Array.forEach(callback : Function, [thisArg : Object]) : undefinedcallback(item : Object, index : Number, array : Array) : undefined
+|-> Array.map(callback : Function, [thisArg : Object]) : Arraycallback(item : Object, index : Number, array : Array) : Object
+|-> Array.reduce(callback : Function, [initialValue : Object]) : Objectcallback(previous : Object, current : Object, index : Number, array : Array) : Object
+|-> Array.reduceRight(callback : Function, [initialValue : Object]) : Objectcallback(previous : Object, current : Object, index : Number, array : Array) : Object
+|-> Array.some(callback : Function, [thisArg : Object]) : Booleancallback(item : Object, index : Number, array : Array) : Boolean
+|-> Array.sort([comparisonFunction : Function]) : ArraycomparisonFunction(x : Object, y : Object) : Number
+|-> Array.from(arrayLike : Object, [mapFunction : Function, [thisArg : Object]]) : ArraymapFunction(item : Object, index : Number) : Object
+|-> Array.from(iterator : Iterator, [mapFunction : Function, [thisArg : Object]]) : ArraymapFunction(item : Object, index : Number) : Object
+|-> Map.forEach(callback : Function, [thisArg : Object]) : undefinedcallback(value : Object, key : Object, map : Map) : undefined
+|-> Promise.catch(onReject : Function) : PromiseonReject(error : Error) : undefined
+|-> Promise.then(onResolve : Function, [onReject : Function]) : PromiseonResolve(value : Object) : ObjectonReject(error : Error) : Object
+|-> JSON.parse(str : String, reviver : Function) : Objectreviver(key : String, value : String) : Object
+|-> JSON.stringify(value : Object, replacer : Function, [indent : String]) : Stringreplacer(key : String, value : Object) : String
+|-> Set.forEach(callback : Function, [thisArg : Object]) : undefinedcallback(value : Object, key : Object, set : Set) : undefined
+|-> String.replace(searchValue : RegExp, replaceFunction : Function) : StringreplaceFunction(match : String, capture1 : String, capture2 : String, ..., offset : Number, string : String) : String
+|-> String.replace(searchValue : String, replaceFunction : Function) : StringreplaceFunction(match : String, offset : Number, string : String) : String
